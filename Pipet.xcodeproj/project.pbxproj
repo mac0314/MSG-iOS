@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C32F6B1F1FFB28009218EA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C32F6A1F1FFB28009218EA /* Media.xcassets */; };
 		04CB1E561F1BE98F00CCC7E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB1E551F1BE98F00CCC7E7 /* AppDelegate.swift */; };
 		04CB1E581F1BE98F00CCC7E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB1E571F1BE98F00CCC7E7 /* ViewController.swift */; };
 		04CB1E5B1F1BE98F00CCC7E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB1E591F1BE98F00CCC7E7 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		043490511F1BEAE600877F7A /* Pipet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pipet-Bridging-Header.h"; sourceTree = "<group>"; };
+		04C32F6A1F1FFB28009218EA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../../Icon/Media.xcassets; sourceTree = "<group>"; };
 		04CB1E521F1BE98E00CCC7E7 /* Pipet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pipet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CB1E551F1BE98F00CCC7E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CB1E571F1BE98F00CCC7E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		04CB1E491F1BE98E00CCC7E7 = {
 			isa = PBXGroup;
 			children = (
+				04C32F6A1F1FFB28009218EA /* Media.xcassets */,
 				04CB1E541F1BE98E00CCC7E7 /* Pipet */,
 				04CB1E691F1BE98F00CCC7E7 /* PipetTests */,
 				04CB1E741F1BE98F00CCC7E7 /* PipetUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				04CB1E601F1BE98F00CCC7E7 /* LaunchScreen.storyboard in Resources */,
 				04CB1E5D1F1BE98F00CCC7E7 /* Assets.xcassets in Resources */,
+				04C32F6B1F1FFB28009218EA /* Media.xcassets in Resources */,
 				04CB1E5B1F1BE98F00CCC7E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7ALGAK2P4W;
 				INFOPLIST_FILE = Pipet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rym.Pipet;
@@ -430,7 +435,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Pipet/Pipet-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,13 +444,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 7ALGAK2P4W;
 				INFOPLIST_FILE = Pipet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rym.Pipet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Pipet/Pipet-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
